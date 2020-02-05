@@ -7,11 +7,11 @@ Use while-loop to print the numbers 1 to 10.
 */
 echo "<h3> Print numbers from 1 to 10</h3>";
 
-$no = 1;
+$nmbr = 1;
 
-while ($no <= 10) {
-	echo $no." ";
-	$no++;
+while ($nmbr <= 10) {
+	echo $nmbr." ";
+	$nmbr++;
 }
 
 // task separator
@@ -28,8 +28,8 @@ to create array of numbers 5 to 100 with the step 5
 echo "<h3>Function Range</h3>";
 
 $number = range(5, 100, 5);
-foreach ($number as $nub) {
-	echo $nub.", ";
+foreach ($number as $no) {
+	echo $no.", ";
 }
 echo "<br>";
 echo "<br>";
